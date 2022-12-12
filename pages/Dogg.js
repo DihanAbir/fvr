@@ -260,7 +260,7 @@ function ImageGridDog() {
           <Box m={1}>
             <img
               style={{ width: "100%", borderRadius: "10px" }}
-              src="https://images.unsplash.com/photo-1670680307288-dae87434670e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
               alt=""
             />
             <Typography sx={{ mt: 2 }}>eliteboerboel</Typography>
