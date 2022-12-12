@@ -1,23 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Button, Container } from "react-bootstrap";
-import Partners from "../components/Exhibitors/Partners";
-import LineUp from "../components/Exhibitors/LineUp";
-import Footer from "../components/Footer";
-import Gallery from "../components/Gallery/Gallery";
-import KeynoteSpeakers from "../components/Speakers/KeynoteSpeakers";
-import Speakers from "../components/Speakers/Speakers";
-import SupportingOgn from "../components/SupportingOgzn/SupportingOgn";
-import styles from "../styles/Home.module.css";
-import SpeakerHeading from "../components/Speakers/SpeakerHeading";
-import GallerySection from "../components/Gallery/GallerySection";
-import Timeline from "../components/Timeline/Timeline";
-import Header from "../components/Header/Header";
-import AboutEgro from "../components/Home/AboutEgro";
-import ProgrammeDetails from "../components/Home/ProgrammeDetails";
-import HealthManagement from "../components/Home/HealthManagement";
-import BreakBtn from "../components/Home/BreakBtn";
-import Banner from "../components/Home/Banner";
+
 import banner from "../public/banner/banner_bg.png";
 import Dogg from "./Dogg";
 
