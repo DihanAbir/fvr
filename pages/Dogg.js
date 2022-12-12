@@ -187,8 +187,8 @@ function ListSection({ data }) {
         listing
       </Typography>
       <Grid container>
-        {data.map((item) => (
-          <Grid item xs={6}>
+        {data.map((item, index) => (
+          <Grid item xs={6} key={index}>
             <Button
               rounded="md"
               onClick={() => setSelected(item)}
@@ -255,8 +255,8 @@ function Header() {
 function ImageGridDog() {
   return (
     <Grid container>
-      {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item) => (
-        <Grid item sm={6} xs={12} lg={4}>
+      {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => (
+        <Grid item sm={6} xs={12} lg={4} key={index}>
           <Box m={1}>
             <img
               style={{ width: "100%", borderRadius: "10px" }}
